@@ -9,12 +9,12 @@ This project provides a simple launcher to run Groovy scripts that utilize Micro
 ## Features
 - Launch and run Groovy scripts with Playwright support
 - Example script included: `PlaywrightEdgeGroovyDemo.groovy`
-- Supports running scripts in Microsoft Edge (Chromium)
+- Supports running scripts in Microsoft Edge 
 
 ## Requirements
 - Java 8 or higher
 - Maven
-- Microsoft Edge (Chromium-based) installed (for Edge automation)
+- Microsoft Edge installed (for Edge automation)
 
 ## Build Instructions
 
@@ -34,7 +34,7 @@ This project provides a simple launcher to run Groovy scripts that utilize Micro
 To run a Groovy Playwright script (e.g., `PlaywrightEdgeGroovyDemo.groovy`):
 
 ```sh
-java -jar .\target\playwright-demo-1.0-SNAPSHOT-jar-with-dependencies.jar .\src\main\groovy\org\example\PlaywrightEdgeGroovyCookieHeaderDemo.groovy
+java -jar .\target\playwright-groovy-launcher-1.0-jar-with-dependencies.jar .\src\main\groovy\org\example\PlaywrightEdgeGroovyCookieHeaderDemo.groovy
 ```
 
 If no script is provided, you will see a usage message:
